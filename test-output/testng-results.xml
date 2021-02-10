@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-07T15:21:14Z" name="Suite" finished-at="2021-02-07T15:23:26Z" duration-ms="132554">
+    <groups>
+    </groups>
+    <test started-at="2021-02-07T15:21:14Z" name="ChromeTest" finished-at="2021-02-07T15:22:18Z" duration-ms="64169">
+      <class name="BusTest.BusTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:BusTest.BusTests@5ad851c9]" started-at="2021-02-07T15:21:14Z" name="setUp" finished-at="2021-02-07T15:21:37Z" duration-ms="22937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BusBookTest()[pri:0, instance:BusTest.BusTests@5ad851c9]" started-at="2021-02-07T15:21:37Z" name="BusBookTest" finished-at="2021-02-07T15:22:11Z" duration-ms="34521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusBookTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BusTest.BusTests@5ad851c9]" started-at="2021-02-07T15:22:11Z" name="tearDown" finished-at="2021-02-07T15:22:18Z" duration-ms="6646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BusTest.BusTests -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2021-02-07T15:22:18Z" name="FirefoxTest" finished-at="2021-02-07T15:23:26Z" duration-ms="68299">
+      <class name="BusTest.BusTests">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:BusTest.BusTests@6b4a4e18]" started-at="2021-02-07T15:22:18Z" name="setUp" finished-at="2021-02-07T15:22:37Z" duration-ms="19143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="BusBookTest()[pri:0, instance:BusTest.BusTests@6b4a4e18]" started-at="2021-02-07T15:22:37Z" name="BusBookTest" finished-at="2021-02-07T15:23:16Z" duration-ms="38650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusBookTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BusTest.BusTests@6b4a4e18]" started-at="2021-02-07T15:23:16Z" name="tearDown" finished-at="2021-02-07T15:23:26Z" duration-ms="10500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BusTest.BusTests -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
